@@ -1,19 +1,16 @@
-import BorderRadiusTemplate from '@/components/templates/BorderRadius'
-import DefaultLayout from '@/components/templates/DefaultLayout'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 import type { GetStaticProps, NextPage } from 'next'
 import { useTranslation } from 'next-i18next'
+import BorderRadiusView from 'components/templates/BorderRadiusView'
 
 const Home: NextPage = () => {
   const { t: indexTranslations } = useTranslation('index')
   return (
-    <DefaultLayout>
-      <BorderRadiusTemplate
-        title={indexTranslations('title')}
-        subtitle={indexTranslations('subtitle')}
-      />
-    </DefaultLayout>
+    <BorderRadiusView
+      title={indexTranslations('title')}
+      subtitle={indexTranslations('subtitle')}
+    />
   )
 }
 

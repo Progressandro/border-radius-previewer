@@ -1,4 +1,4 @@
-import theme from '@/styles/theme'
+import theme from 'styles/theme'
 import { ColorModeScript } from '@chakra-ui/react'
 import Document, {
   Html,
