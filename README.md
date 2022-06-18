@@ -7,4 +7,4 @@ A little project to practice and add to my portfolio.
 - Typescript
 - ESLint
 - Prettier
-- ...
+- Chakra UI
